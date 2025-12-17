@@ -20,8 +20,9 @@ body {
 
 h1 {
   margin: 0;
-  font-family: "Notable", sans-serif;
-  font-size: 4rem;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800
   color: white;
 }
 
@@ -32,7 +33,10 @@ h1 .gradient {
 }
 
 h2 {
-  font-family: "Notable", sans-serif;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800
+  color: white;
   text-align: center;
   font-style: italic;
   font-size: 2.2rem;
@@ -136,7 +140,7 @@ section#first .right #instagram-anchor:hover #instagram-mono {
   object-fit: cover;
   z-index: 1;
   pointer-events: none;
-  filter: brightness(0.6);
+  filter: brightness(1.2);
 }
 
 a.aboutus {
@@ -276,3 +280,30 @@ footer {
     border-bottom-color: #666;
   }
 }
+h1.logo img {
+  height: 4.5rem;
+  width: auto;
+  display: block;
+}
+.highlight {
+  background: #FE0000;
+  color: white;
+  font-style: italic;
+  font-style: bold;
+  padding: 0.15em 0.4em;
+  line-height: 1;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.highlight a {
+  color: inherit;
+  font-style: inherit;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.highlight a .bg {
+  display: none;
+}
+

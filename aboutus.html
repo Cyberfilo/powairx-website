@@ -1,128 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-
-    <link rel="stylesheet" href="style.css" type="text/css"/>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-
-    <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <title>About Us – PowairX</title>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="style.css" type="text/css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>About Us – PowairX</title>
 </head>
-<body>
-<section class="sect info-block">
-    <div class="info-shell">
-        <div class="info-header">
-            <h2>What is STEM Racing?</h2>
-            <p class="info-lead">
-                A global competition where students design, build, and race miniature Formula 1 cars while running a team like a real organization.
-            </p>
-        </div>
 
-        <div class="info-grid">
-            <div class="info-card">
-                <div class="info-kicker">Design & build</div>
-                <p>
-                    From CAD and manufacturing to materials and aerodynamics, every choice is made for performance.
-                </p>
-            </div>
+<body class="page-about">
 
-            <div class="info-card">
-                <div class="info-kicker">Test & improve</div>
-                <p>
-                    Teams validate ideas through testing and iteration, learning what works and what doesn’t.
-                </p>
-            </div>
+  <header class="topbar">
+    <a class="topbar__brand" href="index.html" aria-label="Back to home">
+      <img src="assets/logo-powairx.png" alt="PowairX">
+    </a>
 
-            <div class="info-card">
-                <div class="info-kicker">Communicate</div>
-                <p>
-                    Results matter only if you can explain them clearly: branding, strategy, and presentations.
-                </p>
-            </div>
-        </div>
+    <nav class="topbar__nav">
+      <a class="topbar__link" href="index.html">Home</a>
+      <a class="topbar__link is-active" href="aboutus.html">About Us</a>
+      <a class="topbar__link" href="https://www.instagram.com/powairx" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+  </header>
 
-        <div class="info-footer">
-            <span class="info-pill">Over 60 countries</span>
-            <span class="info-pill">Engineering + teamwork</span>
-            <span class="info-pill">Real-world skills</span>
-        </div>
-    </div>
-</section>
-
-    <div class="orospu">
-        <img class="photo" src="assets/lara.jpeg">
-        <div class="info">
-            <h3>
-                Lara Robledo Romero
-                <img class="country-flag" src="assets/country-spain.png">
-                <img class="country-flag" src="assets/country-argentina.png">
-            </h3>
-            <p>
-                <b>Our team's sponsorship manager</b>, it is her job to contact possible partners
-                and sponsors to help our team receive the necessary aid for success. Lara comes
-                from Madrid, Spain, and her experience changing schools and communities has helped
-                her become an adequate communicator.
-            </p>
-        </div>
+  <main class="sect about-wrap">
+    <div class="about-head">
+      <h2>Who Are We?</h2>
+      <p class="about-lead">
+        PowairX is an international student team competing in STEM Racing. We combine engineering,
+        teamwork, and communication to build a fast car and present it professionally.
+      </p>
     </div>
 
-    <div class="orospu">
-        <img class="photo" src="assets/patricks.jpeg">
-        <div class="info">
-            <h3>
-                Patriks Lovnieks
-                <img class="country-flag" src="assets/country-latvia.png">
-            </h3>
-            <p>
-                <b>Patriks leads PowairX’s communications and external relations</b>. He works
-                closely with judges, sponsors, and partners, representing the team in
-                international environments and ensuring clear, professional communication.
-                His fluency in English, Italian, Latvian, and Spanish allows PowairX to connect
-                with a wide range of audiences.
-            </p>
-        </div>
-    </div>
+    <section class="team-grid" aria-label="Team members">
 
-    <div class="orospu">
-        <img class="photo" src="assets/martina.jpeg">
-        <div class="info">
-            <h3>
-                Martina Martinelli
-                <img class="country-flag" src="assets/country-italy.png">
-            </h3>
-            <p>
-                <b>Martina manages PowairX’s social media platforms</b>, shaping how the team is
-                presented online. She creates engaging content that highlights the team’s
-                progress, creativity, and identity, ensuring a strong and consistent online
-                presence.
-            </p>
+      <article class="member">
+        <img class="member__photo" src="assets/menghi.jpeg" alt="Filippo Mattia Menghi">
+        <div class="member__info">
+          <h3 class="member__name">
+            Filippo Mattia Menghi
+            <span class="member__flags">
+              <img class="country-flag" src="assets/country-italy.png" alt="Italy">
+            </span>
+          </h3>
+          <p class="member__role">Team Leader</p>
+          <p class="member__bio">
+            Filippo leads PowairX and keeps the team organized and focused. He coordinates roles,
+            timelines, and decisions to ensure the project runs smoothly and efficiently.
+          </p>
         </div>
-    </div>
+      </article>
 
-    <div class="orospu">
-        <img class="photo" src="assets/mattia.jpeg">
-        <div class="info">
-            <h3>
-                Mattia Di Lernia
-                <img class="country-flag" src="assets/country-italy.png">
-                <img class="country-flag" src="assets/country-brazil.png">
-            </h3>
-            <p>
-                <b>Mattia is responsible for the engineering and technical development of the
-                PowairX car</b>, with a specialization in IT and coding. He also designed and
-                developed the team’s website, combining technical expertise with creativity
-                to support both performance and digital presentation.
-            </p>
+      <article class="member">
+        <img class="member__photo" src="assets/lara.jpeg" alt="Lara Robledo Romero">
+        <div class="member__info">
+          <h3 class="member__name">
+            Lara Robledo Romero
+            <span class="member__flags">
+              <img class="country-flag" src="assets/country-spain.png" alt="Spain">
+              <img class="country-flag" src="assets/country-argentina.png" alt="Argentina">
+            </span>
+          </h3>
+          <p class="member__role">Sponsorship Manager</p>
+          <p class="member__bio">
+            Lara manages sponsor outreach and partnerships, helping the team secure support for materials,
+            tools, and competition needs. Her international background makes her a strong communicator.
+          </p>
         </div>
-    </div>
+      </article>
 
-</section>
+      <article class="member">
+        <img class="member__photo" src="assets/patricks.jpeg" alt="Patriks Lovnieks">
+        <div class="member__info">
+          <h3 class="member__name">
+            Patriks Lovnieks
+            <span class="member__flags">
+              <img class="country-flag" src="assets/country-latvia.png" alt="Latvia">
+            </span>
+          </h3>
+          <p class="member__role">External Relations</p>
+          <p class="member__bio">
+            Patriks leads communications with judges, sponsors, and partners. He represents the team in
+            international environments and ensures clear, professional messaging across audiences.
+          </p>
+        </div>
+      </article>
+
+      <article class="member">
+        <img class="member__photo" src="assets/martina.jpeg" alt="Martina Martinelli">
+        <div class="member__info">
+          <h3 class="member__name">
+            Martina Martinelli
+            <span class="member__flags">
+              <img class="country-flag" src="assets/country-italy.png" alt="Italy">
+            </span>
+          </h3>
+          <p class="member__role">Social Media</p>
+          <p class="member__bio">
+            Martina manages PowairX’s social media presence, creating content that shows our progress,
+            creativity, and identity with a consistent, professional style.
+          </p>
+        </div>
+      </article>
+
+      <article class="member">
+        <img class="member__photo" src="assets/mattia.jpeg" alt="Mattia Di Lernia">
+        <div class="member__info">
+          <h3 class="member__name">
+            Mattia Di Lernia
+            <span class="member__flags">
+              <img class="country-flag" src="assets/country-italy.png" alt="Italy">
+              <img class="country-flag" src="assets/country-brazil.png" alt="Brazil">
+            </span>
+          </h3>
+          <p class="member__role">Engineering & Website</p>
+          <p class="member__bio">
+            Mattia supports engineering development with a focus on IT and coding. He also designed and
+            built the website, combining technical work with digital presentation.
+          </p>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    PowairX · About Us
+  </footer>
 
 </body>
 </html>
